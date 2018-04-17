@@ -1,0 +1,15 @@
+#word2vec：
+
+word2vec官网：https://code.google.com/p/word2vec/
+word2vec是google的一个开源工具，主要用来生成词向量。
+All work contained in this package is licensed under the Apache License, Version 2.0. 
+See the include LICENSE file.
+
+词向量：用Distributed Representation表示词，通常也被称为“Word Representation”或“Word Embedding（嵌入）”。
+使用方法：Python+gensim
+输入文件：txt格式的语料
+输出：bin格式和txt两种格式的embedding文件。
+需要注意的是，本人并没有更改作者源码，txt格式的embedding是根据bin格式的使用gensim转换得来的。
+其中，corpus为自己需要训练词向量的语料，需要换成自己的文件。
+
+运行：python demo.py
