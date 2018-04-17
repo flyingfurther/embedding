@@ -1,6 +1,8 @@
 #word2vec：
 
 word2vec官网：https://code.google.com/p/word2vec/
+Word2Vec源码GitHub：https://github.com/danielfrg/word2vec
+
 word2vec是google的一个开源工具，主要用来生成词向量。
 All work contained in this package is licensed under the Apache License, Version 2.0. 
 See the include LICENSE file.
